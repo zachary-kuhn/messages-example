@@ -1,0 +1,63 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #313131;
+}
+
+#react-mount {
+  max-width: 350px;
+}
+
+.message-creator__content {
+  margin-bottom: 7px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 350px;
+  height: 90px;
+}
+
+.message-creator__post-button {
+  border: 0;
+  padding: 5px 30px;
+  background-color: #049dbf;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.message {
+  border-color: #ededed;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-width: 0;
+  padding: 15px;
+}
+
+.message:last-child {
+  border-bottom-width: 1px;
+}
+
+.message__author-line {
+  padding-bottom: 4px;
+}
+
+.message__author {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.message__created-at {
+  display: inline-block;
+  font-size: 60%;
+  color: #9a9a9a;
+}
+
+.message__created-at::before {
+  content: "\2022";
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.message__content {
+
+}
