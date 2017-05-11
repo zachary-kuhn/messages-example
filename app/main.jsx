@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Message from './components/message';
 import MessageCreator from './components/message-creator';
-import css from './main.css'
+import css from './main.css';
 
 class App extends Component {
   constructor(props) {
