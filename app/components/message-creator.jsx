@@ -7,11 +7,8 @@ class MessageCreator extends Component {
 
   createMessage(e) {
     e.preventDefault();
-
-    const contentNode = this.refs.content.getDOMNode();
-
-    this.props.create(contentNode.value);
-    contentNode.value = '';
+    this.props.create(this.refs.content.value);
+    this.refs.content.value = '';
   }
 
   render() {
